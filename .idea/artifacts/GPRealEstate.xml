@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GPRealEstate">
+    <output-path>$PROJECT_DIR$/out/artifacts/GPRealEstate</output-path>
+    <root id="archive" name="GPRealEstate.jar">
+      <element id="module-output" name="GPRealEstate" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+    </root>
+  </artifact>
+</component>

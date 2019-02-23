@@ -25,7 +25,6 @@ public class DataStore {
     // Config Variables
     public String cfgSignShort;
     public String cfgSignLong;
-    public String cfgSymbol;
     
     public List<String> cfgRentKeywords;
     public List<String> cfgSellKeywords;

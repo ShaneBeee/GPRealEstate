@@ -153,7 +153,6 @@ public class GPRealEstate extends JavaPlugin {
         // Saving the config informations into the file.
         outConfig.set("GPRealEstate.Keywords.Signs.Short", dataStore.cfgSignShort);
         outConfig.set("GPRealEstate.Keywords.Signs.Long", dataStore.cfgSignLong);
-        outConfig.set("GPRealEstate.Keywords.Signs.Symbol", dataStore.cfgSymbol);
         outConfig.set("GPRealEstate.Keywords.Actions.Renting", dataStore.listToString(dataStore.cfgRentKeywords));
         outConfig.set("GPRealEstate.Keywords.Actions.Selling", dataStore.listToString(dataStore.cfgSellKeywords));
         outConfig.set("GPRealEstate.Keywords.Actions.ReplaceRent", dataStore.cfgReplaceRent);

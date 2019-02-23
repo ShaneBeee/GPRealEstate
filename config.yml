@@ -1,14 +1,12 @@
 GPRealEstate:
 
       #These are what will be put on the sign. These options are best left alone, for example if you changed it to this: Short: '[TC]'
-      #Then to make a claim for sale you have to use [TC] insead of [RE].
+      #Then to make a claim for sale you have to use [TC] instead of [RE].
 
   Keywords:
     Signs:
       Short: '[RE]'
       Long: '[RealEstate]'
-      #If signs do not show an economy symbol just add one in this option, ex: Symbol: '$'
-      Symbol: ''
     Actions:
       Renting: 'Lease;Leasing;For Lease'
       Selling: 'Sell;Selling;For Sale'
@@ -17,7 +15,7 @@ GPRealEstate:
       #This option is how much each block will cost if the price is left blank. Say you have a 10x10 claim. That is 100 blocks, so it will be multiplied by this number, and that will be the price.
       BlockPrice: '5'   
 
-      #EnableLeasing: - If true, it allows player to rent claims out, and charge a player every x amount of time. CURRENTLY NOT FULLY IMPLIMENTED, LEAVE AS FALSE!
+      #EnableLeasing: - If true, it allows player to rent claims out, and charge a player every x amount of time. CURRENTLY NOT FULLY IMPLEMENTED, LEAVE AS FALSE!
       #IgnoreClaimLimit: - If true the plugin will sell someone the claim even if they exceed their claim limit set by Grief Prevention.
       #AllowSellingParentAC: - If true the plugin will allow you to sell parent adminclaims.
   Rules:

@@ -133,7 +133,7 @@ public class GPREListener implements Listener {
                 	event.setLine(0, plugin.dataStore.cfgSignLong);
                     event.setLine(1, ChatColor.DARK_GREEN + plugin.dataStore.cfgReplaceSell);
                     event.setLine(2, player.getName());
-                    event.setLine(3, plugin.dataStore.cfgSymbol + price + " " + GPRealEstate.econ.currencyNamePlural());
+                    event.setLine(3, price + " " + GPRealEstate.econ.currencyNamePlural());
 
                     player.sendMessage(plugin.dataStore.chatPrefix + ChatColor.AQUA + "You are now selling this claim for " + ChatColor.GREEN + price + " " + GPRealEstate.econ.currencyNamePlural());
 
@@ -154,7 +154,7 @@ public class GPREListener implements Listener {
 							event.setLine(0, plugin.dataStore.cfgSignLong);
 							event.setLine(1, ChatColor.DARK_GREEN + plugin.dataStore.cfgReplaceSell);
 							event.setLine(2, player.getName());
-							event.setLine(3, plugin.dataStore.cfgSymbol + price + " " + GPRealEstate.econ.currencyNamePlural());
+							event.setLine(3, price + " " + GPRealEstate.econ.currencyNamePlural());
 
 							player.sendMessage(plugin.dataStore.chatPrefix + ChatColor.AQUA + "You are now selling this admin claim for " + ChatColor.GREEN + price + " " + GPRealEstate.econ.currencyNamePlural());
 
@@ -192,7 +192,7 @@ public class GPREListener implements Listener {
             		event.setLine(0, plugin.dataStore.cfgSignLong);
                     event.setLine(1, ChatColor.DARK_GREEN + plugin.dataStore.cfgReplaceSell);
                     event.setLine(2, player.getName());
-                    event.setLine(3, plugin.dataStore.cfgSymbol + price + " " + GPRealEstate.econ.currencyNamePlural());
+                    event.setLine(3, price + " " + GPRealEstate.econ.currencyNamePlural());
                     
                     player.sendMessage(plugin.dataStore.chatPrefix + ChatColor.AQUA + "You are now selling access to this admin subclaim for " + ChatColor.GREEN + price + " " + GPRealEstate.econ.currencyNamePlural());
 
@@ -218,7 +218,7 @@ public class GPREListener implements Listener {
                 		event.setLine(0, plugin.dataStore.cfgSignLong);
                         event.setLine(1, ChatColor.DARK_GREEN + plugin.dataStore.cfgReplaceSell);
                         event.setLine(2, player.getName());
-                        event.setLine(3, plugin.dataStore.cfgSymbol + price + " " + GPRealEstate.econ.currencyNamePlural());
+                        event.setLine(3, price + " " + GPRealEstate.econ.currencyNamePlural());
                         
                         player.sendMessage(plugin.dataStore.chatPrefix + ChatColor.AQUA + "You are now selling access to this subclaim for " + ChatColor.GREEN + price + " " + GPRealEstate.econ.currencyNamePlural());
 
