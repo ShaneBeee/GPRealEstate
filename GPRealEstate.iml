@@ -43,5 +43,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="spigot-1.13.2" level="project" />
+    <orderEntry type="library" name="GriefPrevention" level="project" />
+    <orderEntry type="library" name="Vault" level="project" />
   </component>
 </module>

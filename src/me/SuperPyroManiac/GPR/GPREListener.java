@@ -295,7 +295,7 @@ public class GPREListener implements Listener {
     	if(event.getAction().equals(Action.RIGHT_CLICK_BLOCK)){
     		
     		Material type = event.getClickedBlock().getType();
-            if ((type == Material.SIGN_POST) || (type == Material.WALL_SIGN)) {
+            if ((type == Material.SIGN) || (type == Material.WALL_SIGN)) {
             	
             	Sign sign = (Sign)event.getClickedBlock().getState();
                 if ((sign.getLine(0).equalsIgnoreCase(plugin.dataStore.cfgSignShort)) || (sign.getLine(0).equalsIgnoreCase(plugin.dataStore.cfgSignLong))) {
